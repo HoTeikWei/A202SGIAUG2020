@@ -1,0 +1,429 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorBlack</item>
+        <item name="colorPrimaryDark">@color/colorDarkGrey1</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    //Login, Register
+    <style name="LRImageViewLogoClass">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">250dp</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:src">@drawable/app_icon</item>
+    </style>
+    <style name="LREditTextEmailClass">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:drawableLeft">@drawable/ic_email</item>
+        <item name="android:inputType">textEmailAddress</item>
+    </style>
+    <style name="LREditTextPasswordClass">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:drawableLeft">@drawable/ic_password</item>
+        <item name="android:inputType">textPassword</item>
+    </style>
+    <style name="LRTextViewMsg">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+    <style name="LRTextViewFPMsg">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:gravity">right</item>
+        <item name="android:textColor">@color/colorBlue</item>
+    </style>
+    <style name="LRButtonClass">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    //Create Recipe, Edit Local Recipe, Edit Recipe, Edit Profile
+    <style name="CEEImageViewClass">
+        <item name="android:layout_width">225dp</item>
+        <item name="android:layout_height">225dp</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:padding">5dp</item>
+    </style>
+    <style name="CEEBtnUploadClass">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:drawableLeft">@drawable/ic_image_library</item>
+        <item name="android:drawablePadding">8dp</item>
+    </style>
+    <style name="CEEMultiSpClass">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="CEETextViewTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="CEEEditTextClass">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="CEEEditTextLongClass">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:overScrollMode">always</item>
+        <item name="android:scrollbarStyle">insideInset</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:inputType">textMultiLine</item>
+    </style>
+    <style name="CEEBtnClass">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">16dp</item>
+    </style>
+    <style name="CEESpClass">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="CEEImageButtonEditClass">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:src">@drawable/ic_edit</item>
+    </style>
+    <style name="CEEImageButtonSaveClass">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:src">@drawable/ic_save</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+    <style name="CEETextViewCPTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:textSize">24dp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="CEEEditTextCPPass">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:drawableLeft">@drawable/ic_password</item>
+        <item name="android:inputType">textPassword</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+    <style name="CEEBtnCPClass">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">16dp</item>
+    </style>
+    <style name="CEETextViewFPTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:textSize">24dp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="CEEEditTextFPEmail">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:drawableLeft">@drawable/ic_email</item>
+        <item name="android:inputType">textEmailAddress</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+    <style name="CEEBtnFPClass">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">16dp</item>
+    </style>
+
+
+    //View Recipe
+    <style name="VRecipeTextViewTitleClass">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="VRecipeTextViewValueClass">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+    <style name="VRecipeImageButtonEditClass">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:src">@drawable/ic_edit</item>
+    </style>
+    <style name="VRecipeImageButtonDeleteClass">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:src">@drawable/ic_delete</item>
+    </style>
+    <style name="VRecipeImageViewClass">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">250dp</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+    <style name="VRecipeTextViewSmallTextClass">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:layout_gravity">right</item>
+    </style>
+    <style name="VRecipeTextViewLikeClass">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">24dp</item>
+        <item name="android:drawableLeft">@drawable/ic_like</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+    <style name="VRecipeTextViewDownloadClass">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">24dp</item>
+        <item name="android:drawableLeft">@drawable/ic_download</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    <style name="VRecipeEditTextCommentClass">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">0.8</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+    <style name="VRecipeImageViewSendClass">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">0.2</item>
+        <item name="android:src">@drawable/ic_send</item>
+        <item name="android:background">@drawable/border</item>
+    </style>
+    <style name="VRecipeImageButtonSearchClass">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:src">@drawable/ic_search</item>
+        <item name="android:background">@drawable/border</item>
+    </style>
+    <style name="VRecipeImageButtonAddClass">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:src">@drawable/ic_add</item>
+        <item name="android:background">@drawable/border</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+    //My Profile
+    <style name="MyProfileImageViewEditClass">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:src">@drawable/ic_edit</item>
+    </style>
+    <style name="MyProfileImageViewClass">
+        <item name="android:layout_width">185dp</item>
+        <item name="android:layout_height">185dp</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:padding">8dp</item>
+    </style>
+    <style name="MyProfileTextViewTitleClass">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">0.3</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="MyProfileTextViewValueClass">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">0.7</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+    <style name="MyProfileTextViewPostTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="MyProfileTextViewNoContentClass">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:visibility">invisible</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+
+    //About Us
+    <style name="AboutUsImageViewClass">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:src">@drawable/app_icon</item>
+    </style>
+    <style name="AboutUsTextViewTitleClass">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="AboutUsTextViewContentClass">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    //Comment item
+    <style name="CommentItemTextViewDateClass">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:layout_gravity">right</item>
+    </style>
+    <style name="CommentItemTextViewUserClass">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+    <style name="CommentItemTextViewCommentClass">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+
+    //faq item
+    <style name="FAQTextViewClass">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">8dp</item>
+    </style>
+    <style name="FAQTextViewTitleClass">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    //List item
+    <style name="ListItemImageView">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+    <style name="ListItemTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:scrollbars">vertical</item>
+    </style>
+
+    //Local item
+    <style name="LocalItemTextViewName">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">0.8</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+    <style name="LocalItemImageViewView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">0.2</item>
+        <item name="android:src">@drawable/ic_book</item>
+        <item name="android:background">@drawable/border</item>
+    </style>
+
+    //Recipe item
+    <style name="RecipeItemImageView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">225dp</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+    <style name="RecipeItemTextViewUser">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+    <style name="RecipeItemTextViewTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+    <style name="RecipeItemTextViewValue">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+    <style name="RecipeItemTextViewLike">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawableLeft">@drawable/ic_like</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+    <style name="RecipeItemImageViewRead">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/ic_book</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+</resources>

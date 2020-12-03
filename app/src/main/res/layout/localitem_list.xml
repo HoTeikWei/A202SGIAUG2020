@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/comment_border"
+        >
+        <TextView
+            android:id="@+id/localitemTvRecipeName"
+            style="@style/LocalItemTextViewName"
+            />
+        <ImageView
+            android:id="@+id/localitemIvRead"
+            style="@style/LocalItemImageViewView"
+            />
+    </LinearLayout>
+</LinearLayout>

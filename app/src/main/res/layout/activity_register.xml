@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@+id/Register_Activity"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/regIvLogo"
+                style="@style/LRImageViewLogoClass"
+                />
+        </RelativeLayout>
+        <EditText
+            android:id="@+id/regEtEmail"
+            style="@style/LREditTextEmailClass"
+            android:hint="@string/registerEmailHint"
+            />
+
+        <EditText
+            android:id="@+id/regEtPass1"
+            style="@style/LREditTextPasswordClass"
+            android:hint="@string/registerPass1Hint"
+            />
+
+        <EditText
+            android:id="@+id/regEtPass2"
+            style="@style/LREditTextPasswordClass"
+            android:hint="@string/registerPass2Hint"
+            />
+
+        <TextView
+            android:id="@+id/regTvLog"
+            style="@style/LRTextViewMsg"
+            android:text="@string/loginText"
+            />
+
+        <Button
+            android:id="@+id/regBtnReg"
+            style="@style/LRButtonClass"
+            android:text="@string/lrBtnReg"
+            />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@+id/Login_Activity"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/logIvLogo"
+                style="@style/LRImageViewLogoClass"
+                />
+        </RelativeLayout>
+        <EditText
+            android:id="@+id/logEtEmail"
+            android:hint="@string/loginEmailHint"
+            style="@style/LREditTextEmailClass"
+            />
+
+        <EditText
+            android:id="@+id/logEtPass"
+            android:hint="@string/loginPassHint"
+            style="@style/LREditTextPasswordClass"
+            android:inputType="textPassword"
+            />
+
+        <TextView
+            android:id="@+id/logTvForgetPass"
+            style="@style/LRTextViewFPMsg"
+            android:text="@string/fpText"
+            />
+        <TextView
+            android:id="@+id/logTvRegister"
+            style="@style/LRTextViewMsg"
+            android:text="@string/registerText"
+            />
+        <Button
+            android:id="@+id/logBtnLogin"
+            style="@style/LRButtonClass"
+            android:text="@string/lrBtnLogin"
+            />
+    </LinearLayout>
+</ScrollView>

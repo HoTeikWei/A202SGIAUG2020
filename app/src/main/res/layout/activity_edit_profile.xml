@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Edit_Profile_Activity"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/editprofileIvProfileImage"
+            style="@style/CEEImageViewClass"
+            android:background="@drawable/border"
+            />
+        <Button
+            android:id="@+id/editprofileBtnUpload"
+            style="@style/CEEBtnUploadClass"
+            android:text="@string/rBtnUploadTitle"
+            />
+
+        <TextView
+            android:id="@+id/editprofileTvNameTitle"
+            style="@style/CEETextViewTitle"
+            android:text="@string/pNameTitle"
+            />
+
+        <EditText
+            android:id="@+id/editprofileEtName"
+            style="@style/CEEEditTextClass"
+            android:hint="@string/pNameQuestion"/>
+
+        <TextView
+            android:id="@+id/editprofileTvGenderTitle"
+            style="@style/CEETextViewTitle"
+            android:text="@string/pGenderTitle"
+            />
+
+        <Spinner
+            android:id="@+id/editprofileSpGender"
+            style="@style/CEESpClass"
+            />
+
+        <ImageButton
+            android:id="@+id/editprofileIbSave"
+            style="@style/CEEImageButtonEditClass"
+            />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@+id/View_Local_Recipe_Activity"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewLocalRecipe">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        >
+        <TextView
+            android:id="@+id/viewlocalrecipeTvRecipeNameTitle"
+            style="@style/VRecipeTextViewTitleClass"
+            android:text="@string/rNameTitle" />
+        <TextView
+            android:id="@+id/viewlocalrecipeTvRecipeName"
+            style="@style/VRecipeTextViewValueClass"
+            android:text="Recipe Name"/>
+
+        <TextView
+            android:id="@+id/viewlocalrecipeTvRecipeTagTitle"
+            style="@style/VRecipeTextViewTitleClass"
+            android:text="@string/rTagTitle" />
+        <TextView
+            android:id="@+id/viewlocalrecipeTvRecipeTag"
+            style="@style/VRecipeTextViewValueClass"
+            android:text="Recipe Tag"/>
+
+        <TextView
+            android:id="@+id/viewlocalrecipeTvRecipeIngredientTitle"
+            style="@style/VRecipeTextViewTitleClass"
+            android:text="@string/rIngredientTitle"/>
+        <TextView
+            android:id="@+id/viewlocalrecipeTvRecipeIngredient"
+            style="@style/VRecipeTextViewValueClass"
+            android:text="Ingredient"
+            />
+        <TextView
+            android:id="@+id/viewlocalrecipeTvRecipeStepTitle"
+            style="@style/VRecipeTextViewTitleClass"
+            android:text="@string/rStepTitle" />
+        <TextView
+            android:id="@+id/viewlocalrecipeTvRecipeStep"
+            style="@style/VRecipeTextViewValueClass"
+            android:text="Step"/>
+        <TextView
+            android:id="@+id/viewlocalrecipeTvRecipeCreatorTitle"
+            style="@style/VRecipeTextViewTitleClass"
+            android:text="@string/rCreatorTitle"/>
+        <TextView
+            android:id="@+id/viewlocalrecipeTvRecipeCreator"
+            style="@style/VRecipeTextViewValueClass"
+            android:text="Creator name"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+            <ImageButton
+                android:id="@+id/viewlocalrecipeIbEdit"
+                style="@style/VRecipeImageButtonEditClass"/>
+
+            <ImageButton
+                android:id="@+id/viewlocalrecipeIbDelete"
+                style="@style/VRecipeImageButtonDeleteClass" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@+id/Edit_Recipe_Activity"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditRecipeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        >
+
+        <ImageView
+            android:id="@+id/editrecipeIvFoodImg"
+            style="@style/CEEImageViewClass"
+            android:background="@drawable/border"
+            />
+        <Button
+            android:id="@+id/editrecipeBtnUpload"
+            style="@style/CEEBtnUploadClass"
+            android:text="@string/rBtnUploadTitle"
+            />
+        <TextView
+            android:id="@+id/editrecipeTvTagTitle"
+            style="@style/CEETextViewTitle"
+            android:text="@string/rTagTitle"
+            />
+        <com.example.assignment.MultiSelectionSpinner
+            android:id="@+id/editrecipeSpTag"
+            style="@style/CEEMultiSpClass"
+            />
+
+        <TextView
+            android:id="@+id/editrecipeTvRecipeNameTitle"
+            style="@style/CEETextViewTitle"
+            android:text="@string/rNameTitle"/>
+
+        <EditText
+            android:id="@+id/editrecipeEtRecipeName"
+            style="@style/CEEEditTextClass"
+            android:hint="@string/rNameQuestion"
+            />
+
+        <TextView
+            android:id="@+id/editrecipeTvRecipeIngredientTitle"
+            style="@style/CEETextViewTitle"
+            android:text="@string/rIngredientTitle"
+            />
+
+        <EditText
+            android:id="@+id/editrecipeEtRecipeIngredient"
+            style="@style/CEEEditTextLongClass"
+            android:hint="@string/rIngredientQuestion"
+            />
+        <TextView
+            android:id="@+id/editrecipeTvRecipeStepTitle"
+            style="@style/CEETextViewTitle"
+            android:text="@string/rStepTitle"
+            />
+        <EditText
+            android:id="@+id/editrecipeEtRecipeStep"
+            style="@style/CEEEditTextLongClass"
+            android:hint="@string/rStepQuestion"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:id="@+id/editrecipeIbSave"
+                style="@style/CEEImageButtonSaveClass"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

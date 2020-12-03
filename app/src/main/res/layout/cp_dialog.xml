@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/border"
+    android:padding="16dp"
+    >
+
+    <TextView
+        android:id="@+id/cpDialogTvTitle"
+        style="@style/CEETextViewCPTitle"
+        android:text="@string/CPNewPasswordTitle"
+        />
+    <EditText
+        android:id="@+id/cpDialogEtPassword"
+        style="@style/CEEEditTextCPPass"
+        android:hint="@string/CPNewPasswordHint"
+        />
+    <Button
+        android:id="@+id/cpDialogBtnChange"
+        style="@style/CEEBtnCPClass"
+        android:text="@string/CPBtnTitle"
+        />
+</LinearLayout>

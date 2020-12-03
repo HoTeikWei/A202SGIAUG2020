@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        >
+            <Spinner
+                android:id="@+id/myrecipeSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/myrecipeIvSearch"
+                android:layout_centerInParent="true"
+            />
+            <ImageView
+                android:id="@+id/myrecipeIvSearch"
+                style="@style/VRecipeImageButtonSearchClass"
+                android:layout_toLeftOf="@id/myrecipeIvAdd"
+
+                />
+            <ImageView
+                android:id="@+id/myrecipeIvAdd"
+                style="@style/VRecipeImageButtonAddClass"
+                />
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/myrecipeRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayoutTop"
+        />
+
+</RelativeLayout>

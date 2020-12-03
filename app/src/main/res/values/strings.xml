@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">Rimm</string>
+
+    <string name="custom_dialog_loading">Loading...</string>
+
+    //menu section
+    <string name="menu_log">Login</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_setting">Setting</string>
+    <string name="menu_FAQ">FAQ</string>
+    <string name="menu_aboutus">About Us</string>
+
+    <string name="menu_myrecipe">My Recipe</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_recipelist">Recipe List</string>
+
+    //Profile Section
+    <string name="pNameTitle">Name</string>
+    <string name="pNameQuestion">Enter your name...</string>
+    <string name="pGenderTitle">Gender</string>
+    <string name="pEmailTitle">Email</string>
+    <string name="pPostTitle">My Post</string>
+    <string name="pNoPost">You have no post any recipe yet</string>
+    <string name="pBtnCP">Change password</string>
+
+    //CP Dialog
+    <string name="CPNewPasswordTitle">Change Password</string>
+    <string name="CPNewPasswordHint">Enter new password...</string>
+    <string name="CPBtnTitle">Change</string>
+
+    //Recipe Section
+    <string name="rTagTitle">Tag </string>
+    <string name="rNameTitle">Name</string>
+    <string name="rNameQuestion">Enter name of food...</string>
+    <string name="rIngredientTitle">Ingredients</string>
+    <string name="rIngredientQuestion">Enter ingredients...</string>
+    <string name="rStepTitle">Preparation</string>
+    <string name="rStepQuestion">Enter preparation step...</string>
+    <string name="rBtnPostTitle">Post</string>
+    <string name="rBtnSaveTitle">Save</string>
+    <string name="rBtnUploadTitle">Upload</string>
+    <string name="rCreatorTitle">Creator</string>
+    <string name="rDownloadText">Download</string>
+    <string name="rCommentTitle">Comment</string>
+    <string name="rCommentQuestion">Type your comment here...</string>
+
+    //Login section
+    <string name="loginEmailHint">Enter email address...</string>
+    <string name="loginPassHint">Enter password...</string>
+    <string name="registerText">Do not have account? Click me for registration!</string>
+    <string name="lrBtnLogin">Login</string>
+    <string name="fpText">Forgot password? Click me to reset!</string>
+
+    //Register section
+    <string name="registerEmailHint">Enter email address...</string>
+    <string name="registerPass1Hint">Enter password...</string>
+    <string name="registerPass2Hint">Re-enter password...</string>
+    <string name="loginText">Already have account? Click me for login!</string>
+    <string name="lrBtnReg">Register</string>
+
+    //Forgot password
+    <string name="fpEmailTitle">Forgot Password</string>
+    <string name="fpBtnTitle">Send Email</string>
+    <string name="fpEmailHint">Enter email address...</string>
+
+    //About us section
+    <string name="aboutus_content">Rimm is an Social-recipe application for who will to cook.</string>
+
+    //FAQ section
+    <string name="faqTitle">Frequently asked questions (FAQ)</string>
+    <string-array name="question">
+        <item>How to create recipe and post it?</item>
+        <item>How to download recipe?</item>
+        <item>How to change my personal information?</item>
+    </string-array>
+
+    <string-array name="answer">
+        <item>
+            # You have to login before post your recipe. #
+            \n\n1. Go to \"My Recipe\" in bottom bar.
+            \n\n3. Click on \"+\" icon in the top bar of \"My Recipe\" page.
+            \n\n4. Now, you can create your recipe and post it!
+        </item>
+        <item>
+            1. Go to \"Home\" or \"Recipe List\" page.
+            \n\n2. Click on view icon in \"Home\" page OR click on the image in \"Recipe List\" page.
+            \n\n3. Scroll down and click the \"Download\" text.
+            \n\n4. Now, you can see your downloaded recipe in \"My Recipe\".
+        </item>
+        <item>
+            # You have to login before change your information. #
+            \n\n1. Click on \"Setting\" icon in top bar of every page.
+            \n\n2. Choose \"My Profile\".
+            \n\n3. CLick on the \"Pen\" icon in the top of page.
+            \n\n4. Now, you can change your personal information.
+        </item>
+    </string-array>
+
+    //Spinner section
+    <string-array name="tagList">
+        <item>No Tag Selected</item>
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+        <item>Meat</item>
+        <item>Vege</item>
+        <item>Beverage</item>
+        <item>Egg</item>
+        <item>Fish</item>
+        <item>Bread</item>
+        <item>Seafood</item>
+        <item>Dessert</item>
+        <item>Salad</item>
+        <item>Cake</item>
+        <item>Snack</item>
+    </string-array>
+
+    <string-array name="localDisplayType">
+        <item>All recipe</item>
+        <item>My recipe</item>
+        <item>Downloaded recipe</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>Select Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+</resources>

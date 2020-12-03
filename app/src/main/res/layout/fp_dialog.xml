@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/fpDialogTvTitle"
+        style="@style/CEETextViewFPTitle"
+        android:text="@string/fpEmailTitle"
+        />
+    <EditText
+        android:id="@+id/fpDialogEtEmail"
+        style="@style/CEEEditTextFPEmail"
+        android:hint="@string/fpEmailHint"
+        />
+    <Button
+        android:id="@+id/fpDialogBtnSend"
+        style="@style/CEEBtnFPClass"
+        android:text="@string/fpBtnTitle"
+        />
+
+</LinearLayout>
